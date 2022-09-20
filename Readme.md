@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Albina Gromova](https://up.htmlacademy.ru/htmlcss/35/user/1558853).
-* Наставник: `Неизвестно`.
+* Наставник: [Valentyn Diravka](https://htmlacademy.ru/profile/id1567679).
 
 ---
 
