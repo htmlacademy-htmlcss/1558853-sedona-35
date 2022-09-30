@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
           <img class="page-header-logo" alt="Логотип «Седона»." src="">
@@ -42,7 +42,7 @@
         </ul>
       </nav>
     </header>
-    <main class="inner">
+    <main class="inner" data-test="main">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
@@ -54,25 +54,25 @@
           </li>
         </ul>
       </header>
-      <section class="filter-hotels">
+      <section class="search" data-test="search">
         <h2 class="visually-hidden">Фильтр гостиниц</h2>
-        <form class="filter-hotels-search" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="filter-hotels-search-group">
-            <legend class="filter-hotels-search-title">Инфраструктура:</legend>
-            <ul class="filter-hotels-search-group-list">
-              <li class="filter-hotels-search-group-item">
+        <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="search-group">
+            <legend class="search-title">Инфраструктура:</legend>
+            <ul class="search-group-list">
+              <li class="search-group-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="pool" checked>
                   Бассеин
                 </label>
               </li>
-              <li class="filter-hotels-search-group-item">
+              <li class="search-group-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="parking" checked>
                   Парковка
                 </label>
               </li>
-              <li class="filter-hotels-search-group-item">
+              <li class="search-group-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="wi-fi">
                   Wi-fi
@@ -80,22 +80,22 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="filter-hotels-search-group">
-            <legend class="filter-hotels-search-title">Тип Жилья:</legend>
-            <ul class="filter-hotels-search-group-list">
-              <li class="filter-hotels-search-group-item">
+          <fieldset class="search-group">
+            <legend class="search-title">Тип Жилья:</legend>
+            <ul class="search-group-list">
+              <li class="search-group-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="accommodation-type" checked>
                   Гостиница
                 </label>
               </li>
-              <li class="filter-hotels-search-group-item">
+              <li class="search-group-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="accommodation-type">
                   Мотель
                 </label>
               </li>
-              <li class="filter-hotels-search-group-item">
+              <li class="search-group-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="accommodation-type">
                   Апартаменты
@@ -180,14 +180,17 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
+            <a>...</a>
+          </li>
+          <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
         <button class="button pagination-show-more" type="button">Показать ещё</button>
       </section>
     </main>
-    <footer class="page-footer">
-      <section class="newsletter">
+    <footer class="page-footer" data-test="footer">
+      <section class="newsletter" data-test="subscribe">
         <h2 class="newsletter">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
