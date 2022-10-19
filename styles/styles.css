@@ -59,6 +59,16 @@ body {
   list-style-type: none;
 }
 
+.want-here {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #756157;
+}
+
 .hero {
   color: #333333;
   background-color: #808080;
