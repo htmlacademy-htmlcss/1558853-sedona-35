@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
-
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -12,7 +12,7 @@
       <header class="header" data-test="header">
         <nav class="navigation">
           <a class="navigation-logo" href="index.html">
-            <img class="header-logo" alt="Логотип города Седона." src="#" width="" height="">
+            <img class="header-logo" alt="Логотип города Седона." src="images/icons/logo.svg" width="140" height="70">
           </a>
           <ul class="navigation-list">
             <li class="navigation-item">
@@ -38,32 +38,29 @@
             </li>
           </ul>
 
-              <a class="navigation-link" href="#">
-                <span class="want-here">Хочу сюда!</span>
-              </a>
-
+              <a class="button button-here" href="#">Хочу сюда!</a>
 
         </nav>
       </header>
       <main class="main-index" data-test="main">
         <section class="hero" data-test="hero">
-          <h1 class="visually-hidden"> Седона - городок в Аризоне</h1>
-          <img class="hero-slogan" src="#"
-            alt="Welcome to the gorgeous Sedona, Because the Grand Canyon sucks!" width="" height="">
+          <h1 class="visually-hidden">Седона - городок в Аризоне</h1>
+          <img class="hero-slogan" src="images/icons/welcome.svg"
+            alt="Welcome to the gorgeous Sedona, Because the Grand Canyon sucks!" width="458" height="352">
 
         </section>
         <section data-test="advantages">
-          <h2 class="visually-hidden">Преимущества</h2>
-          <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+          <h2>Преимущества</h2>
+          <p class="section-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
           <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
 
           <ul class="advantages">
             <li class="advantages-item">
               <div class="sedona-sights">
-                <h3>Настоящий городок</h3>
-                <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                <h3 class="sights-title">Настоящий городок</h3>
+                <p class="sights-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
-              <img class="sedona-town" src="" alt="Город Седона" width="" height="">
+              <img class="sedona-town" src="images/sedona.jpg" alt="Город Седона" width="800" height="384">
             </li>
 
             <li class="advantages-item-territory">
@@ -80,10 +77,10 @@
             </li>
             <li class="advantages-item">
               <div class="sedona-sights">
-                <h3 class="canyon-title">Там есть мост дьявола</h3>
-                <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                <h3 class="sights-title">Там есть мост дьявола</h3>
+                <p class="sights-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
-              <img class="canyon-background" src="" alt="Каньон" width="" height="">
+              <img class="canyon-background" src="images/canyon.jpg" alt="Каньон" width="800" height="384">
             </li>
           </ul>
 
@@ -104,7 +101,7 @@
           </ul>
         </section>
 
-        <section class="hotel-search" data-test="search">
+        <section class="hotel-search">
           <h2 class="visually-hidden">Поиск гостиницы</h2>
           <h2 class="hotel-search-title">Заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
@@ -150,8 +147,8 @@
           <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <p>
             <a class="footer-logo" href="index.html">
-              <img class="footer-logo" alt="Логотип академии." src="#" width=""
-                height="">
+              <img class="footer-logo" alt="Логотип академии." src="images/icons/htmlacademy.svg" width="115"
+                height="33">
             </a>
           </p>
         </section>
