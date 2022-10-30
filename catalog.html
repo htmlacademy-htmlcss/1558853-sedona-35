@@ -124,8 +124,8 @@
           </section>
 
         </section>
+        <div class="sorting-container">
 
-        <section class="hotels" data-test="catalog">
           <p class="hotels-result">Найдено гостиниц:
             <span>38</span>
           </p>
@@ -139,16 +139,18 @@
               </a>
             </li>
             <li>
-              <a class="button" href="#">
+              <a href="#" class="button">
                 <span class="visually-hidden">Показать карточками</span>
               </a>
             </li>
             <li>
-              <a class="button" href="#">
+              <a href="#" class="button">
                 <span class="visually-hidden">Показать списком</span>
               </a>
             </li>
           </ul>
+        </div>
+        <section class="hotels" data-test="catalog">
           <ul class="hotel-list">
             <li class="hotel-card">
               <a class="hotel-card-link" href="hotel.html">
@@ -195,27 +197,29 @@
               <span class="button-rating" href="#">Рейтинг: 5,0</span>
             </li>
           </ul>
-          <ul class="pagination">
-            <li class="pagination-item">
-              <a class="pagination-link pagination-current">1</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">2</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">3</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">4</a>
-            </li>
-            <li class="pagination-item">
-              <a>...</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">10</a>
-            </li>
-          </ul>
-          <button class="button pagination-show-more" type="button">Показать ещё</button>
+          <div class="pagination-container">
+            <ul class="pagination">
+              <li class="pagination-item">
+                <a class="pagination-link pagination-current">1</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">2</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">3</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">4</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-dots">...</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">10</a>
+              </li>
+            </ul>
+          </div>
+
         </section>
 
 
@@ -236,36 +240,38 @@
         </section>
       </main>
       <footer class="page-footer" data-test="footer">
-        <section class="footer-social">
-          <h2 class="visually-hidden">Социальные сети</h2>
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="button" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">VKontakte</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Telegramm</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually-hidden">YouTube</span>
-              </a>
-            </li>
-          </ul>
-        </section>
-        <section class="footer-contacts">
-          <h2 class="visually-hidden">Контакты</h2>
-          <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          <p>
+        <div class="page-footer-container">
+          <section class="footer-social">
+            <h2 class="visually-hidden">Социальные сети</h2>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a class="button" href="https://vk.com/htmlacademy">
+                  <span class="visually-hidden">VKontakte</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button" href="https://t.me/htmlacademy">
+                  <span class="visually-hidden">Telegramm</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+                  <span class="visually-hidden">YouTube</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer-contacts">
+            <h2 class="visually-hidden">Контакты</h2>
+            <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+            <p>
 
-        </section>
-        <a class="footer-logo" href="index.html">
-          <img class="footer-logo" alt="Логотип академии." src="images/icons/htmlacademy.svg" width="115" height="33">
-        </a>
-        </p>
+          </section>
+          <a class="footer-logo" href="index.html">
+            <img class="footer-logo" alt="Логотип академии." src="images/icons/htmlacademy.svg" width="115" height="33">
+          </a>
+          </p>
+        </div>
       </footer>
     </div>
   </body>
